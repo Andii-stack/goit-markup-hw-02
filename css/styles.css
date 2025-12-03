@@ -12,6 +12,11 @@ ol {
 
 a {
   text-decoration: none;
+  color: #2e2f42;
+}
+
+button {
+  cursor: pointer;
 }
 
 .logo {
@@ -31,7 +36,6 @@ a {
   line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
 }
 
 .logo-footer {
@@ -57,16 +61,16 @@ a {
   color: #f4f4fd;
 }
 
-.meny a{
+.meny a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
-.meny a:focus{
-  color: red;
+.meny a:hover{
+  text-decoration: underline; 
+  color: blue;
 }
 
 .info {
@@ -76,7 +80,11 @@ a {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+}
+
+.info a:hover {
+  text-decoration: underline; 
+  color: blue;
 }
 
 .present {
@@ -95,13 +103,18 @@ a {
 
 .button {
   background: #4d5ae5;
-  cursor: pointer;
+  font-weight: 500;
+  color: #fff;;
 }
 
-.button:hover {
+.button:hover{
   transform: scale(1.2);
   font-size: 16px;
-  color: white;
+}
+
+.button:focus{
+  transform: scale(1.2);
+  font-size: 16px;
 }
 
 .features-text {
@@ -109,7 +122,6 @@ a {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
 .features-text-info {
@@ -117,7 +129,6 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
 .team {
@@ -127,7 +138,6 @@ a {
   line-height: 1.11111;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #2e2f42;
 }
 
 .team-portfolio {
@@ -147,7 +157,6 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #2e2f42;
 }
 
 .team-present-profession {
@@ -157,7 +166,6 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #434455;
 }
 
 .portfolio {
@@ -171,5 +179,4 @@ a {
   line-height: 1.11111;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #2e2f42;
 }
