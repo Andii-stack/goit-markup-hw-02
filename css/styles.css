@@ -1,6 +1,6 @@
 body {
   background-color: #fff;
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #2e2f42;
   font-size: 16px;
 }
@@ -24,7 +24,7 @@ a {
   color: #4d5ae5;
 }
 
-.logo2 {
+.logo-header {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -57,8 +57,7 @@ a {
   color: #f4f4fd;
 }
 
-.meny {
-  font-family: "Roboto", sans-serif;
+.meny a{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -66,10 +65,15 @@ a {
   color: #2e2f42;
 }
 
+.meny a:focus{
+  color: red;
+}
+
 .info {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
+  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
@@ -90,17 +94,30 @@ a {
 }
 
 .button {
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   cursor: pointer;
 }
 
-.team-portfolio {
-  background: #f4f4fd;
+.button:hover {
+  transform: scale(1.2);
+  font-size: 16px;
+  color: white;
+}
+
+.features-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.features-text-info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .team {
@@ -113,47 +130,17 @@ a {
   color: #2e2f42;
 }
 
-.mark {
-  border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px;
-  width: 264px;
-  height: 380px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  background: #fff;
-}
-
-.tom {
-  border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px;
-  width: 264px;
-  height: 380px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  background: #fff;
-}
-
-.camila {
-  border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px;
-  width: 264px;
-  height: 380px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  background: #fff;
-}
-
-.daniel {
-  border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px;
-  width: 264px;
-  height: 380px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  background: #fff;
+.team-portfolio {
+  background: #f4f4fd;
 }
 
 .team-present {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+}
+
+.team-present-text {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -185,9 +172,4 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-}
-
-.portfolio-icons {
-  width: 360px;
-  height: 420px;
 }
