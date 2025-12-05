@@ -82,6 +82,7 @@ button {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  font-style: normal;
   letter-spacing: 0.02em;
 }
 
@@ -89,7 +90,7 @@ button {
   color: #404bbf;
 }
 
-.info:focus {
+.info a:focus {
   color: #404bbf;
 }
 
