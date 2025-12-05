@@ -50,6 +50,7 @@ button {
 
 .footer {
   background: #2e2f42;
+  color: #2e2f42;
 }
 
 .cart-footer {
@@ -63,28 +64,32 @@ button {
 
 .menu a {
   font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 4%;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .menu a:hover {
   color: #404bbf;
 }
 
-.menu a:focus{
+.menu a:focus {
   color: #404bbf;
 }
 
 .info {
   font-weight: 400;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 4%;
-  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .info a:hover {
+  color: #404bbf;
+}
+
+.info:focus {
   color: #404bbf;
 }
 
@@ -106,42 +111,48 @@ button {
   background: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 4%;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #fff;
 }
 
 .button:hover {
   font-size: 16px;
   color: #fff;
-  background: #404bbf
+  background: #404bbf;
 }
 
-.button:focus{
+.button:focus {
   font-size: 16px;
   color: #fff;
-  background: #404bbf
+  background: #404bbf;
 }
 
 .features-text {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
-  letter-spacing: 2%;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .features-text-info {
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-  letter-spacing: 4%;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .team {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 36px;
-  letter-spacing: 2%;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
 }
 
 .team-portfolio {
@@ -161,6 +172,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
 }
 
 .team-present-profession {
@@ -174,4 +186,5 @@ button {
 
 .portfolio {
   background: #fff;
+  color: #2e2f42;
 }
