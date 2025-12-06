@@ -54,7 +54,7 @@ button {
   color: #2e2f42;
 }
 
-.cart-footer {
+.footer-text {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -192,7 +192,7 @@ button {
   color: #434455;
 }
 
-.portfolio-hed {
+.portfolio-heading {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
