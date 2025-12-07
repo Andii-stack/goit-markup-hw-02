@@ -3,7 +3,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   font-size: 16px;
-  margin: 0;
 }
 
 ul,
@@ -38,6 +37,10 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
+  box-sizing: border-box;
+  margin-left: 156px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .logo-footer {
@@ -62,6 +65,14 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.menu {
+  box-sizing: border-box;
+  padding-left: 76px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-right: 40px;
 }
 
 .menu a {
